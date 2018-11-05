@@ -1,7 +1,7 @@
 {
   "name": "github-study",
   "version": "1.0.1",
-  "description": "Git 워크플로우 학습",
+  "description": "Git ?��?��?��로우 ?��?��",
   "scripts": {
     "bundle": "rollup -c",
     "build": "cross-env BUILD=on rollup -c"

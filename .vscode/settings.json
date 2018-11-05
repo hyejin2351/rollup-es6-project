@@ -1,5 +1,7 @@
 {
     "editor.fontFamily": "Consolas, '맑은고딕',",
     "files.encoding": "euckr",
-    "editor.suggestFontSize": 14
+    "editor.suggestFontSize": 14,
+    "editor.formatOnSave": true,
+    "html.format.enable": false
 }
