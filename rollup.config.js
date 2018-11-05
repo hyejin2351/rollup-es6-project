@@ -17,7 +17,6 @@ export default {
         }),
         eslint({
             include: './public/js/**',
-            // 이 경로 안에 있는 모든 js 파일의 문법을 검사한다.
         })
     ],
 };
