@@ -13,7 +13,7 @@ export default {
     plugins: [
         (process.env.BUILD === 'on' && uglify()),
         babel({
-            exclude: 'node_modules/**'   
+            exclude: 'node_modules/**',
         }),
         eslint({
             include: './public/js/**',

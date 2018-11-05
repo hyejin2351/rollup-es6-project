@@ -1,2 +1,2 @@
 # rollup-es6-project
-[Rollup](http://rollupjs.org), [Babel](https://babeljs.io)ì„ ì‚¬ìš©í•œ ES6 í”„ë¡œì íŠ¸ (í•™ìŠµìš©)
+[Rollup](http://rollupjs.org), [Babel](https://babeljs.io)À» »ç¿ëÇÑ ES6 ÇÁ·ÎÁ§Æ® (ÇĞ½À¿ë)
