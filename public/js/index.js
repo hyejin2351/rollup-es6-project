@@ -1,3 +1,5 @@
-import {type} from './utils/index.js';
+import type from './utils/index';
 
-console.log(type(Symbol('type checker')));
+let result = type(Symbol('type checker'));
+
+// console.log(result)
