@@ -11,12 +11,14 @@ export default {
     format: 'iife',
   },
   plugins: [
-    process.env.BUILD === 'on' && uglify(),
+    (process.env.BUILD === 'on' && uglify()),
     babel({
       exclude: 'node_modules/**',
     }),
-    eslint({
+    (process.env.BUILD !== 'on' && eslint({
+      //BUILD 상태가 'on'이 아닌 상태에서만 eslint를 실행
       include: './public/js/**',
-    }),
+      exclude: './public/js/bundle.js',
+    })),
   ],
 };
