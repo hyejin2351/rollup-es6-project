@@ -1,7 +1,7 @@
 {
   "name": "github-study",
   "version": "1.0.1",
-  "description": "Git ?��?��?��로우 ?��?��",
+  "description": "Git ?占쏙옙?占쏙옙?占쏙옙濡쒖슦 ?占쏙옙?占쏙옙",
   "scripts": {
     "bundle": "rollup -c",
     "build": "cross-env BUILD=on rollup -c"
